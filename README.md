@@ -7,5 +7,5 @@ Users can create an account that allows them to opt in to receive bi-weekly text
  
  
 ------------------------------------------------------------------------------------------
-Web App Prototype Can Be Viewed At: https://tatycat.github.io/dependency-checkIn/
+Web App Prototype Can Be Viewed At: https://tatycat.github.io/dependency-checkin/
  
