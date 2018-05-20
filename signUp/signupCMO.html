@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="Dependency Check-In log in page">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../mainLanding/css/normalize.css">
+  <link rel="stylesheet" href="../mainLanding/css/main.css">
+
+  <!--Tatyanna Added Styles-->
+  <title>Sign-Up | Dependency Check-In </title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:700|Merriweather+Sans:700" rel="stylesheet">
+</head>
+
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- HTML STARTS HERE FOR SIGN UP PG -Tatyanna -->
+<nav class="w3-bar w3-blue naviBar w3-mobile">
+  <p class="w-3 navigation w3-text-white w3-large w3-show-inline-block">Dependency  <i class="fas fa-phone-slash"></i> Check-In  |  <span class="navPgDescript">Sign Up</span></p>
+  <button class=" w3-right w3-large w3-btn w3-hover-white w3-show-inline-block w3-margin-top"><a href="../logInOut/logout.html">Log Out</a></button>
+</nav>
+
+
+<!--#TODO ADD ON CLICK EVENT TO DISPLAY BELOW AFTER HITTING SEARCH -->
+
+<div class="w3-card-4 w3-container w3-center" id="searchBox">
+  <div class="searchHeader">
+    <p class="w3-text-green w3-xlarge">Input the county (that has jurisdiction) of your juvenile dependency case:</p>
+    <form action="">
+      <input type="search" name="countySearch" placeholder="Ex: Hillsborough">
+      <button type="submit" class="whiteButton w3-ripple w3-hover-blue">Search County</button>
+    </form>
+  </div>
+</div>
+
+<!--Search results can be added to a w3 table if needed-->
+<div id="searchResults" class="w3-container w3-large">
+  <p class="w3-center w3-xlarge w3-panel resultsHeader">All Case Management Organizations in {Manatee} County</p> <!--Manatee to be replaced with w/e county -->
+
+  <div class="topPadding">
+    <p class="CMO w3-text-green">Youth & Family Alternatives, INC. / Safe Children Coalition</p>
+    <p class="CMOaddress">5729 Manatee Ave. West<br>Bradenton, FL 34209</p>
+    <p class="CMOphoneNumber">(941) 200-0000</p>
+    <form action="signupContactInfo.html">
+      <p><button type="submit" class="w3-button w3-blue">Select</button></p>
+    </form>
+  </div>
+
+
+  <div class="topPadding">
+    <p class="CMO w3-text-green">CenterStone / Safe Children Coalition</p>
+    <p class="CMOaddress">5729 Manatee Ave. West<br>Bradenton, FL 34209</p>
+    <p class="CMOphoneNumber">(941) 200-0000</p>
+    <form action="signupContactInfo.html">
+      <p><button type="submit" class="w3-button w3-blue">Select</button></p>
+    </form>
+
+  </div>
+</div>
+
+
+<script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+<script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
